@@ -24,7 +24,7 @@ hr {
 nav{
 			/*width: 70%;*/
 			height: 20px;
-			background-color: pink;
+			background-color: black;
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
@@ -48,8 +48,9 @@ nav{
 			font-family: "Roboto", sans-serif;
 			text-transform: unset;
 			text-align: center;
-			background-color: pink;
-			color: black;
+			background-color: black;
+			color: white;
+			margin-right: 100px;
 			/*border-bottom: 30px;
 			border-radius: 30px;*/
 			/*box-shadow: 3px 3px 5px grey;*/
@@ -64,7 +65,7 @@ nav{
 		li a {
 			font-family: "Roboto", sans-serif;
 			font-size:15px;
-			color: black;
+			color: white;
 			opacity: 50%;
 			text-decoration: none;
 			transition: 0.5s;
