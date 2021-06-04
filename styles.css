@@ -1,0 +1,241 @@
+body>header {
+    font-family: roboto-medium,Arial,sans-serif;
+    font-weight: 400;
+}
+
+body {
+    /*max-width: 54rem;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+hr {
+			padding: none;
+			width: 395%;
+			height: 1px;
+			background-color: black;
+			display: flex;
+			color: grey;
+		}
+
+
+nav{
+			/*width: 70%;*/
+			height: 20px;
+			background-color: pink;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			align-content: center;
+			float: center;
+			padding: 30px 0px;
+			/*position: fixed;*/
+			z-index: 12;
+	
+			/*border-bottom: 20px;
+			border-radius: 30px;*/
+
+		}
+
+		.nav {
+			/*margin-top: -100px;*/
+			/*padding-top: -100px;*/
+			list-style: none;
+			/*padding: 10px 20px;*/
+			display: inline-block;
+			font-family: "Roboto", sans-serif;
+			text-transform: unset;
+			text-align: center;
+			background-color: pink;
+			color: black;
+			/*border-bottom: 30px;
+			border-radius: 30px;*/
+			/*box-shadow: 3px 3px 5px grey;*/
+		}
+
+		.nav li{
+			display: inline-block;
+			padding: 0px 30px;
+
+		}
+
+		li a {
+			font-family: "Roboto", sans-serif;
+			font-size:15px;
+			color: black;
+			opacity: 50%;
+			text-decoration: none;
+			transition: 0.5s;
+		}
+
+		li a visited {
+			
+		}
+
+		li a:hover {
+			text-decoration:underline;
+			opacity: 100%;
+			color: white;
+			background-color: none;
+			transition: 0.5s;
+
+		}
+
+		.logo{
+			width: auto;
+			height: 25px;
+			margin-left: 25px;
+
+
+		}
+
+		.site-footer {
+			padding-top: 600px;
+		    position: absolute;
+		    left: 0;
+		    width: 100%;
+		    border-top: .1rem solid #e7e8e9;
+		    min-height: 2rem;
+		    padding: .5rem 0 .5rem 0;
+		    line-height: 1rem;
+		    margin-top: 5rem;
+		    /*text-align: center;*/
+		    /*margin-left: 30px;*/
+		    font-family: "Roboto", sans-serif;
+				font-size: 15px;
+			}
+
+			h1{
+				font-family: "Roboto", sans-serif;
+				font-size: 170px; 
+				margin-top: 0px ;
+				margin-bottom: -30px;
+				/*margin: none;*/	
+			}
+
+			h2{
+				font-family: "Roboto", sans-serif;
+				font-size: 50px; 
+				margin-top: 90px ;
+				margin-bottom: 0px;
+				/*margin: none;*/	
+			}
+
+			p{
+				font-family: "Roboto", sans-serif;
+				font-size: 20px; 
+			}
+
+		.Griglia-contenitore {
+			background-color: white;
+			margin-left: 80px;
+			padding: 30px;
+			/*padding-right: 0px;
+			padding-left: 0px;*/
+		/*STABILIRE CHE ESISTE UNA GRIGLIA*/
+			display: grid;
+		/*NUMERO E LARGHEZZA DELLE COLONNE*/
+			grid-template-columns: repeat(6, 1fr);
+		/*NUMERO E ALTEZZA DELLE RIGHE*/
+			grid-template-rows: (6, 1fr);
+			/*justify-content: center;*/
+			/*align-items: center;*/
+			grid-column-gap: 20px;
+			grid-row-gap: 20px;
+			
+		}
+
+		griglia-cella {
+			padding: 15px;
+			/*outline: 1px solid white;*/
+			
+
+		}
+
+		.Cella1 {
+			background-color: white;
+			color: black;
+			padding-bottom: -30px; 
+			grid-column: 1/4
+		}
+
+
+
+		.Cella2 {
+			grid-column: 5/7;
+			/*background-color: black;*/
+			color: black;
+			margin-left: 90px;
+			
+
+		}
+
+		.Cellatit {
+			grid-column: 1/7;
+			margin-top: -100px;
+
+		}
+
+		.Cellavideo {
+			grid-column: 1/7;
+			margin-top: 20px;
+		}
+
+		.Cella3 {
+			background-color: white;
+			color: black;
+			padding: 0px; 
+			grid-column: 1/5
+
+
+		}
+
+		.Cella4 {
+			grid-column: 6/7;
+		}
+
+		.Cella5 {
+			background-color: white;
+			color: black;
+			padding: 0px; 
+			grid-column: 1/5
+
+
+		}
+
+		.Cella6 {
+			grid-column: 6/7;
+		}
+
+		.Cella7 {
+			background-color: white;
+			color: black;
+			padding: 0px; 
+			grid-column: 1/5
+
+
+		}
+
+		.Cella8 {
+			grid-column: 6/7;
+		}
+		
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+		
+
+
+	
